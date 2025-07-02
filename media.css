@@ -1,0 +1,68 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+
+    header{
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .header-left{
+        justify-content: center;
+    }
+
+    .logo{
+        padding: 10px;
+    }
+
+    .header-address{
+        padding: 10px;
+    }
+
+    .searchBox button{
+        padding: 10px;
+    }
+
+    .headerBtn{
+        position: fixed;
+        width: 100%;
+        background-color: white;
+        margin-right: 0px;
+        justify-content: center;
+        bottom: 0px;
+    }
+
+    .banner-section{
+        display: none;
+    }
+
+    .order-banner{
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .category-item{
+        flex-basis: 25%;
+    }
+
+    .product-section{
+        padding: 40px 10px;
+    }
+
+    .product-item{
+        flex-basis: 49%;
+    }
+
+    footer{
+        padding-top: 0px;
+    }
+
+    .footer-mid--row1{
+        padding: 10px;
+        flex-direction: column;
+    }
+
+
+
+    
+}
